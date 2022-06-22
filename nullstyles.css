@@ -1,0 +1,24 @@
+html, body, span, h1, h2, h3, h4, h5, h6, p, blockquote,
+a, cite, code, img, dl, dt, dd, ol, ul, li, form, label,
+table, caption, tr, th, td,
+article, aside, footer, header, nav, section, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  text-decoration: none;
+}
+/*# sourceMappingURL=nullstyles.css.map */

@@ -1,0 +1,53 @@
+$white: #ffffff
+$dark-grey: #333333 
+$light-grey: #999999
+$pink: #f38181
+$blue: #95e1d3
+$Montserrat: "Montserrat", sans-serif
+$KaushanScript: "Kaushan Script", sans-serif
+$Roboto: "Roboto", sans-serif
+
+@mixin font($font-family, $font-size, $line-height, $color)
+    font-family: $font-family
+    font-size: $font-size
+    line-height: $line-height
+    color: $color
+
+%main-block-headers
+    font-family: $Montserrat
+    font-size: 30px
+    line-height: auto
+    color: $dark-grey
+    text-transform: uppercase
+    font-weight: 700
+
+%additional-block-headers
+    font-family: $KaushanScript
+    font-size: 24px
+    line-height: auto
+    color: $dark-grey
+    font-weight: 400
+
+%inside-block-headers-grey
+    font-family: $Montserrat
+    font-size: 14px
+    line-height: auto
+    color: $dark-grey
+    text-transform: uppercase
+    font-weight: 600
+    
+%main-text
+    font-family: $Roboto
+    font-size: 15px
+    line-height: 24px
+    color: $light-grey
+    font-weight: 400
+    text-align: center
+
+%caption-text
+    font-family: $Roboto
+    font-size: 15px
+    line-height: 24px
+    color: $light-grey
+    font-weight: 300
+    font-style: italic
