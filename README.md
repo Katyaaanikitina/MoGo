@@ -1,5 +1,6 @@
 # MoGo - Multipurpose landing page template
 A pure client-side landing page template that includes all the basic components you need to present your company
+
 ![](https://github.com/Katyaaanikitina/MoGo/blob/bdb3002cd853480c40b980327cdef3bae353d5c4/Mogo.gif)
 
 ## Features
