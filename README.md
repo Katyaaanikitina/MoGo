@@ -6,6 +6,7 @@ A pure client-side landing page template that includes all the basic components 
 * It's a static HTML page, so no hosting needed (just use Github Pages for free). Follow this link - [GitHub Pages](https://pages.github.com/) to know how 
 * Has adaptive layout
 * Light source code
+* Built using HTML and SASS it is written due to BEM convention standard 
 
 ## How to use
 1.Fork this project to your own Github account <br />
